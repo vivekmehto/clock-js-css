@@ -5,11 +5,15 @@
 }
 
 body {
-  background: #efefef;
+  background: #69dadb;
   font-size: 2rem;
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
+  max-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  margin: 1.1rem;
+  padding: 1.1rem;
 }
 
 .clock {
@@ -17,7 +21,7 @@ body {
   height: 30rem;
   border: 20px solid white;
   border-radius: 50%;
-  margin: 50px auto;
+  margin: auto;
   position: relative;
   padding: 2rem;
   box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
